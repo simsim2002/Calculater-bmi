@@ -23,13 +23,13 @@ document.getElementById("calculater4").addEventListener("click", function () {
     document.getElementById("result").innerHTML = "SUM : " + sum;
 }); */
 function myalert(){
-    alert("hee")
+    alert("ambatukam")
 }
 function bmi(){
     var bmiw = document.getElementById("bmiw").value;
     var bmih = document.getElementById("bmih").value;
     var BMI = parseInt(bmiw)/(parseInt(bmih)**2); 
-    alert("BMI : " + BMI)
+    alert("BMI : " + BMI.toFixed(2))
 }
 function sum1(){
     var num1 = document.getElementById("num1").value;
